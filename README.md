@@ -21,6 +21,7 @@
 ![Screen Shot 2022-09-08 at 11 14 14 PM](https://user-images.githubusercontent.com/21301096/189159787-0f697d7d-4649-4b76-8232-6848a062332a.png)
 
 <h2>安裝 python-smbus 與  RPi.GPIO 套件</h2>
+
 - 在樹莓派的終端機裡使用 sudo apt install python3-pip 安裝 Python的 pip 套件管理程式
 - 接著使用  pip3 install RPi.GPIO 安裝 在 Python 裡的 RPi.GPIO 套件
 - 最後使用  pip3 install smbus 安裝 在 Python 裡要用到的 smbus 套件
