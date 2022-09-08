@@ -6,6 +6,21 @@
 - Turbidity Sensor (Meter) 水濁度感測器  https://www.taiwaniot.com.tw/product/grove-turbidity-sensor-meter-%e6%b0%b4%e6%bf%81%e5%ba%a6%e6%84%9f%e6%b8%ac%e5%99%a8-for-arduino-%e6%b0%b4%e8%b3%aa%e6%aa%a2%e6%b8%ac-%e9%a4%8a%e6%ae%96%e7%92%b0%e5%a2%83%e7%9b%a3%e6%b8%ac-seeed/
 - 微型 抽水馬達 沈水馬達 DC3V~DC5V     https://www.taiwaniot.com.tw/product/%e5%be%ae%e5%9e%8b-%e6%8a%bd%e6%b0%b4%e9%a6%ac%e9%81%94-%e6%b2%89%e6%b0%b4%e9%a6%ac%e9%81%94-dc3vdc5v/
 - PCF8591模塊 AD/DA轉換模組  https://shopee.tw/PCF8591%E6%A8%A1%E5%A1%8A-AD-DA%E8%BD%89%E6%8F%9B%E6%A8%A1%E7%B5%84-1308-%E5%A4%A7%E6%B4%8B%E5%9C%8B%E9%9A%9B%E9%9B%BB%E5%AD%90-i.26482219.1624319825
-<img width="1923" alt="Screen Shot 2022-09-08 at 10 57 50 PM" src="https://user-images.githubusercontent.com/21301096/189155908-4ce8d5fd-4bdb-4c5f-b798-28a15e2f1056.png">
+<h2>實驗所需元件開箱</h2>
+<img width="1923" alt="Screen Shot 2022-09-08 at 10 57 50 PM" src="https://user-images.githubusercontent.com/21301096/189155908-4ce8d5fd-4bdb-4c5f-b798-28a15e2f1056.png"><br/>
+
+<h2>樹莓派腳位圖</h2>
 <img width="1935" alt="Screen Shot 2022-09-08 at 10 58 32 PM" src="https://user-images.githubusercontent.com/21301096/189156176-c21a800b-1260-4646-aca9-27cc95e0ac5a.png">
+
+<h2>實驗元件接線圖</h2>
 <img width="2078" alt="Screen Shot 2022-09-08 at 10 58 53 PM" src="https://user-images.githubusercontent.com/21301096/189156205-3b77ce48-035d-499d-87a7-61807fe90a7b.png">
+
+<h2>設定 I2C 以讀取水質偵測器資訊</h2>
+- 為了要讓 樹莓派 可以讀到從 水質感應器 上傳入的資料，需要開啟 I^2C 及SPI的介面
+
+![Screen Shot 2022-09-08 at 11 14 14 PM](https://user-images.githubusercontent.com/21301096/189159787-0f697d7d-4649-4b76-8232-6848a062332a.png)
+
+<h2>安裝 python-smbus 與  RPi.GPIO 套件</h2>
+- 在樹莓派的終端機裡使用 sudo apt install python3-pip 安裝 Python的 pip 套件管理程式
+- 接著使用  pip3 install RPi.GPIO 安裝 在 Python 裡的 RPi.GPIO 套件
+- 最後使用  pip3 install smbus 安裝 在 Python 裡要用到的 smbus 套件
