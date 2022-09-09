@@ -28,3 +28,11 @@
 
 ## Reference
 1. <a href='https://www.chipwaygo.com/doc/gpio_pin.php'>GPIO簡介</a>
+2. <a href='https://www.instructables.com/Water-Quality-Sensor/'>Water Quality Sensor</a>
+3. <a href='https://www.electroschematics.com/diy-water-quality-meter-using-a-turbidity-sensor/'>DIY Water Quality Meter Using a Turbidity Sensor</a>
+4. <a href='https://wiki.dfrobot.com/Sensor_connection_to_Raspberry_Pi'>Sensor connection to Raspberry Pi</a>
+5. <a href='https://www.tomshardware.com/reviews/raspberry-pi-gpio-pinout,6122.html'>Raspberry Pi GPIO Pinout: What Each Pin Does on Pi 4, Earlier Models</a>
+6. <a href='https://www.electroniclinic.com/turbidity-sensor-with-arduino-for-water-quality-monitoring-turbidity-meter/'>Turbidity Sensor with Arduino for Water quality monitoring, Turbidity Meter</a>
+7. <a href='https://how2electronics.com/diy-turbidity-meter-using-turbidity-sensor-arduino/'>DIY Turbidity Meter using Turbidity Sensor & Arduino</a>
+8. <a href='https://www.waveshare.com/wiki/Raspberry_Pi_Tutorial_Series:_PCF8591_AD/DA'>Raspberry Pi Tutorial Series: PCF8591 AD/DA</a>
+
