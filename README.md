@@ -27,4 +27,4 @@
 - 最後使用  `pip3 install smbus` 安裝 在 Python 裡要用到的 smbus 套件
 
 ## Reference
-1. <a href='https://www.chipwaygo.com/doc/gpio_pin.php>GPIO簡介</a>
+1. <a href='https://www.chipwaygo.com/doc/gpio_pin.php'>GPIO簡介</a>
